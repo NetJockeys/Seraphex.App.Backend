@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Project Path="Seraphex.App.Application/Seraphex.App.Application.csproj" />
+  <Project Path="Seraphex.App.Domain/Seraphex.App.Domain.csproj" />
+  <Project Path="Seraphex.App.Infrastructure/Seraphex.App.Infrastructure.csproj" />
+</Solution>
