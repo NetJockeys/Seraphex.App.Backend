@@ -1,0 +1,6 @@
+@Seraphex.App.Application_HostAddress = http://localhost:5227
+
+GET {{Seraphex.App.Application_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
