@@ -12,4 +12,8 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.4" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Seraphex.App.Infrastructure\Seraphex.App.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

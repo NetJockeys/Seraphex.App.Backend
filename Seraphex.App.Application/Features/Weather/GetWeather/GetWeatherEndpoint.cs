@@ -12,10 +12,10 @@ public class GetWeatherEndpoint : IEndpoint
 
         group.MapGet("", () =>
             {
-                var summaries = new[]
-                {
+                string[] summaries =
+                [
                     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-                };
+                ];
                 
                 var forecast = Enumerable.Range(1, 5).Select(index =>
                         new WeatherViewModel

@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Seraphex.App.Domain\Seraphex.App.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
